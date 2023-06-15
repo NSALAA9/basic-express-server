@@ -12,7 +12,7 @@ This project is a basic Express server built using Node.js. It serves as a simpl
 - Handles 500 errors for server errors.
 
 ### Links
-- **Rendered App**: [Link to the Rendered App](https://basic-express-server-tadi.onrender.com)
+- **Rendered App**: [Link to the Rendered App](https://basic-express-server-qk78.onrender.com)
 - **Pull Request**: [Link to the Pull Request](https://github.com/NSALAA9/basic-express-server/pulls)
 - **Actions**: [Link to Actions](https://github.com/NSALAA9/basic-express-server/actions)
 
