@@ -14,10 +14,10 @@ describe('Server test', () => {
     const res = await request.get('/items');
     expect(res.status).toEqual(404);
   })
-  // it('should respond with 404 error on a bad method', async () => {
-  //   const response = await request(app).post('/person');
-  //   expect(response.status).toBe(404);
-  // });
+  it('should respond with 404 error on a bad method', async () => {
+    const response = await request.post('/person');
+    expect(response.status).toBe(404);
+  });
 
   it('Handle errors', async () => {
     const res = await request.get('/bad');
